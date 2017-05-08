@@ -1,3 +1,5 @@
 # This file will be read by resetprop
 # Example: Change dpi
 # ro.sf.lcd_density=320
+ro.build.description=kyleproxx-user 4.2.2 JDQ39 S7580XXUBOL1 release-keys
+ro.build.fingerprint=samsung/kyleproxx/kylepro:4.2.2/JDQ39/S7580XXUBOL1:user/release-keys

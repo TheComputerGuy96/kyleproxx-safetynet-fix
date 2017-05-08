@@ -1,7 +1,7 @@
-id=template
-name=Template Module
-version=v1
+id=kyleproxx-safetynet-fix
+name=GT-S758x SafetyNet Fix
+version=v1.0
 versionCode=1
-author=topjohnwu
-description=A short description
+author=DodoGTA
+description=This module fixes SafetyNet on GT-S7580/GT-S7582 (Magisk v11.6 only)
 template=3
