@@ -213,6 +213,11 @@ if [ "$ABILONG" = "x86_64" ]; then ARCH=x64; IS64BIT=true; fi;
 
 # You can get the Android API version from $API, the CPU architecture from $ARCH
 # Useful if you are creating Android version / platform dependent mods
+if [ "$API" -lt "23" ]; then
+  # Note: This module is also irrelevant for some Marshmallow ROMs (but it's nearly impossible to identify them all)
+  ui_print "! This module is irrelevant on Lollipop and below"
+  exit 1
+fi
 
 if is_mounted /data; then
   IMG=/data/$IMGNAME
