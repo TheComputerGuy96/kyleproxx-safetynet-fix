@@ -50,7 +50,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "  GT-S758x SafetyNet Fix v1.1  "
+  ui_print "  GT-S758x SafetyNet Fix v1.2  "
   ui_print "*******************************"
 }
 

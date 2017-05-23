@@ -1,7 +1,10 @@
 ## GT-S758x SafetyNet Fix
-This module fixes SafetyNet for GT-S7580/GT-S7582 (For Magisk v11.6+, except v12.0)
+This module fixes SafetyNet for GT-S7580/GT-S7582 (For Magisk v11.6+)
 
 **Changelog**
+
+v1.2
+- Update module description
 
 v1.1
 - Add API check
